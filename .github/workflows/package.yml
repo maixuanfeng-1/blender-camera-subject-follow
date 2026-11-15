@@ -1,0 +1,27 @@
+name: Build installable ZIP
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check Python syntax
+        run: python -m compileall -q camera_subject_follow.py scripts tests examples
+      - name: Build and verify the installable ZIP
+        run: python scripts/build_release.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: camera-subject-follow-installer
+          path: dist/*

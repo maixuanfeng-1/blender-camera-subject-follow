@@ -1,0 +1,30 @@
+name: Bug report / 问题反馈
+description: Help reproduce an unexpected result in Blender.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Blender version, OS and add-on version / 版本与系统
+      placeholder: Blender 4.3.2, macOS, add-on 1.2.1
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      description: Start from a simple scene if possible. Mention the scene camera and path type.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior / 预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Small example, screenshot or error log / 示例或报错
+      description: Only attach material you can share publicly. A scene with primitives is ideal.
