@@ -1,0 +1,35 @@
+name: Trial feedback / 试用反馈
+description: Tell us whether the first camera move worked, or where you got stuck.
+title: "[Trial] "
+labels: [trial-feedback]
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: Blender version and OS / Blender 版本与系统
+      placeholder: Blender 4.3.2, Windows 11
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: How far did you get? / 试用到哪一步？
+      options:
+        - Installed and made a camera move / 已安装并完成运镜
+        - Installed but could not make the move / 已安装，运镜没跑起来
+        - Could not install / 安装遇到问题
+        - Only tried the example scene / 只体验了示例工程
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: What worked or got in your way? / 哪一步顺利，哪一步卡住？
+      description: A sentence is enough. Mention the control or error if something failed.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Optional screenshot or example / 可选截图或示例
+      description: Attach only material you can share publicly.

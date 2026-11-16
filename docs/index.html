@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Blender Camera Subject Follow — 免费贝塞尔运镜与相机跟随</title>
+  <meta name="description" content="14 种可编辑贝塞尔运镜、主体跟随与景深对焦。观看真实 Blender 演示，免费下载插件与示例工程。">
+  <meta property="og:title" content="相机沿路走，主体一直在画面里。">
+  <meta property="og:description" content="免费开源 Blender 插件：14 种可编辑路径、主体跟随、首尾画面连接。附示例工程。">
+  <meta property="og:image" content="https://maixuanfeng-1.github.io/blender-camera-subject-follow/images/social-preview.png">
+  <meta property="og:url" content="https://maixuanfeng-1.github.io/blender-camera-subject-follow/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="https://github.com/maixuanfeng-1/blender-camera-subject-follow">Camera Subject Follow<span>for Blender</span></a>
+    <nav aria-label="Main navigation"><a href="https://github.com/maixuanfeng-1/blender-camera-subject-follow">GitHub ↗</a><button id="language" type="button">English</button></nav>
+  </header>
+  <main class="wrap">
+    <section class="intro">
+      <p class="eyebrow" data-i18n="eyebrow">免费开源 · 实际插件渲染演示</p>
+      <h1 data-i18n="title">相机沿路走，<br>主体一直在画面里。</h1>
+      <p class="lead" data-i18n="lead">选主体、选路径、生成动画。把重复搭相机约束的时间，留给构图和作品。</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/maixuanfeng-1/blender-camera-subject-follow/releases/download/v1.2.1/camera_subject_follow-v1.2.1.zip" data-i18n="download">免费下载插件 ZIP ↓</a>
+        <a class="button" href="https://github.com/maixuanfeng-1/blender-camera-subject-follow/blob/main/docs/TRY.md" data-i18n="try">三分钟试用指南 →</a>
+      </div>
+      <p class="small" data-i18n="compat">已验证：macOS · Blender 4.3.2 / 5.1.0。当前插件界面为中文。</p>
+    </section>
+    <section class="demo" aria-label="Actual Blender camera animation demo">
+      <video controls playsinline preload="metadata" poster="images/launch-cover.png" aria-label="Three actual Blender camera moves, with English captions">
+        <source src="media/camera-follow-demo.zh-CN.mp4" type="video/mp4">
+        <a href="https://github.com/maixuanfeng-1/blender-camera-subject-follow/releases/download/v1.2.1/camera-follow-demo.en.mp4">Download demo video</a>
+      </video>
+      <p class="caption" data-i18n="caption">真实插件生成：环绕 → 推进 → 螺旋升降。路线示意与字幕为后期说明。</p>
+      <p class="caption"><a href="https://github.com/maixuanfeng-1/blender-camera-subject-follow/releases/download/v1.2.1/camera-follow-demo.en.mp4" data-i18n="videodownload">下载英文演示视频 ↗</a></p>
+    </section>
+    <section class="features" aria-label="Features">
+      <article><span>01</span><h2 data-i18n="f1title">路线可继续改</h2><p data-i18n="f1">14 种预设，也能绑定自己画的曲线。控制点可移动、细分和延伸。</p></article>
+      <article><span>02</span><h2 data-i18n="f2title">朝向与对焦分别控制</h2><p data-i18n="f2">吸管选主体，独立开关朝向跟随和景深对焦。</p></article>
+      <article><span>03</span><h2 data-i18n="f3title">从首尾画面开始</h2><p data-i18n="f3">记录两端构图，生成连接曲线，继续调整路径。</p></article>
+    </section>
+    <section class="trial">
+      <div><p class="eyebrow" data-i18n="triallabel">欢迎首批试用者</p><h2 data-i18n="trialtitle">先改一次环绕半径。</h2><p data-i18n="trialcopy">附上原创示例工程。打开后播放 1–145 帧，再把半径从 8.3 改到 10，生成新路径，看看相机是否仍然对准主体。</p></div>
+      <div class="triallinks">
+        <a class="button primary" href="https://github.com/maixuanfeng-1/blender-camera-subject-follow/releases/download/v1.2.1/camera-follow-demo.blend" data-i18n="scene">下载示例工程 ↓</a>
+        <a class="button" href="https://github.com/maixuanfeng-1/blender-camera-subject-follow/issues/new?template=trial.yml" data-i18n="feedback">告诉我哪一步最卡 →</a>
+        <p class="small" data-i18n="feedbacknote">反馈写上版本、系统和是否成功即可。对你有用的话，欢迎给 GitHub 项目一个 Star。</p>
+      </div>
+    </section>
+    <details><summary data-i18n="limits">使用前了解的边界</summary><p data-i18n="limitscopy">主体跟随点为物体原点；不自动避障，也不自动变焦保持主体大小。代码声明最低 Blender 4.2，其他系统和版本仍需验证。现有动画可脱离插件播放，修改插件设置需安装插件。</p></details>
+  </main>
+  <footer class="wrap"><p>GPL-3.0-or-later · <a href="https://github.com/maixuanfeng-1">@maixuanfeng-1</a></p><a href="https://github.com/maixuanfeng-1/blender-camera-subject-follow/blob/main/docs/GUIDE.md" data-i18n="guide">完整指南 / Full guide ↗</a></footer>
+  <script src="site.js"></script>
+</body>
+</html>

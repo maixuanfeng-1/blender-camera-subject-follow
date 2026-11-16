@@ -2,7 +2,7 @@
 
 **画一条路线，让相机沿路运动，始终看向并对焦主体。**
 
-[English](README.md) · [下载插件](https://github.com/maixuanfeng-1/blender-camera-subject-follow/releases/latest) · [完整使用指南](docs/GUIDE.zh-CN.md) · [反馈问题](https://github.com/maixuanfeng-1/blender-camera-subject-follow/issues/new/choose)
+[English](README.md) · [观看真实演示](https://maixuanfeng-1.github.io/blender-camera-subject-follow/) · [下载插件](https://github.com/maixuanfeng-1/blender-camera-subject-follow/releases/latest) · [三分钟试用](docs/TRY.md#三分钟试用)
 
 ![相机跟随插件：原创产品场景、可编辑路径与主体对焦](docs/images/cover.png)
 
@@ -12,9 +12,11 @@
 
 ## 先看效果
 
-![真实插件生成的相机运动；左侧为路径示意，右侧为相机实际渲染画面](docs/images/demo.gif)
+![三种真实插件生成的运镜：环绕、推进、螺旋升降；左侧为路径示意，右侧为相机实际渲染画面](docs/images/three-moves.gif)
 
-演示由实际插件和随仓库提供的原创示例工程生成。左侧路径示意和文字是后期说明，不是 Blender 界面截图。模型与材质均由代码生成，没有外部素材依赖。
+演示由实际插件和随仓库提供的原创示例工程生成。左侧路径示意和文字是后期说明，不是 Blender 界面截图。模型与材质均由代码生成，没有外部素材依赖。[观看 16 秒视频](https://maixuanfeng-1.github.io/blender-camera-subject-follow/)。
+
+**欢迎首批试用：** 按 [三分钟试用](docs/TRY.md#三分钟试用) 改一次示例的环绕半径，再用 [试用反馈表](https://github.com/maixuanfeng-1/blender-camera-subject-follow/issues/new?template=trial.yml) 告诉我 **Blender 版本、系统、是否跑通**。下载和获得帮助都不以 Star 为条件。
 
 ## 适合解决什么问题
 

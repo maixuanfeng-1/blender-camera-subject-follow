@@ -1,5 +1,12 @@
 # Changelog
 
+## Documentation and demo update — 2026-11-16
+
+- Three real camera moves rendered through the existing add-on: orbit, dolly in and rising helix.
+- Added 16-second English/Chinese landscape videos, a Chinese portrait video and a looping preview.
+- Added a bilingual demo page, a three-minute example task and a trial feedback form.
+- Installer and core add-on behavior remain at 1.2.1.
+
 ## 1.2.1 — first public GitHub release
 
 - Independent modal eyedroppers for subject, path and shot-reference cameras, including cancel/retry behavior and preservation of object selection.

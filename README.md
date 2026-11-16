@@ -2,7 +2,7 @@
 
 **Build an editable camera move, and keep your subject in focus.**
 
-[中文说明](README.zh-CN.md) · [Download the add-on](https://github.com/maixuanfeng-1/blender-camera-subject-follow/releases/latest) · [Full guide](docs/GUIDE.md) · [Report a bug](https://github.com/maixuanfeng-1/blender-camera-subject-follow/issues/new/choose)
+[中文说明](README.zh-CN.md) · [Watch the demo](https://maixuanfeng-1.github.io/blender-camera-subject-follow/?lang=en) · [Download the add-on](https://github.com/maixuanfeng-1/blender-camera-subject-follow/releases/latest) · [Try in three minutes](docs/TRY.md)
 
 ![Camera Subject Follow: an original studio scene, an editable camera path and a subject that stays in focus.](docs/images/cover.png)
 
@@ -15,9 +15,11 @@ No account, paid service, external Python dependency or network request is requi
 
 ## See what it does
 
-![Actual add-on demo: camera position moves around the path while the product remains centered. Left: path overview. Right: rendered camera output.](docs/images/demo.gif)
+![Three actual add-on camera moves: orbit, dolly in and rising helix. The subject remains centered. Left: explanatory route diagram. Right: rendered camera output.](docs/images/three-moves.gif)
 
-The frames above come from the actual add-on and the included [original demo scene](examples/camera-follow-demo.blend). The path overview and captions are added for explanation; they are not a screenshot of the Blender interface. No third-party models or textures are needed.
+The frames above come from the actual add-on and the included [original demo scene](examples/camera-follow-demo.blend). The path overview and captions are added for explanation; they are not a screenshot of the Blender interface. No third-party models or textures are needed. [Watch the 16-second video](https://maixuanfeng-1.github.io/blender-camera-subject-follow/?lang=en).
+
+**Early testers welcome:** follow the [three-minute task](docs/TRY.md), then tell us your Blender version, operating system and whether the move worked using the [trial feedback form](https://github.com/maixuanfeng-1/blender-camera-subject-follow/issues/new?template=trial.yml). No star is required to download or get help.
 
 | You want to… | Use this |
 | --- | --- |
